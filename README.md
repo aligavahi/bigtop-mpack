@@ -7,19 +7,23 @@ To build:
 
 ```git clone https://github.com/mattAndruff/bigtop-mpack.git
 cd bigtop-mpack/bgtp-ambari-mpack/
-mvn clean package -DskipTests # mpack will now be located in the ./target/```
+mvn clean package -DskipTests # mpack will now be located in the ./target/
+```
 
 To Install into ambari:  (on the Ambari server run)
 
-```sudo ambari-server stop
+```
+sudo ambari-server stop
 sudo ambari-server install-mpack --mpack=./target/bgtp-ambari-mpack-1.0.0.0-SNAPSHOT-bgtp-ambari-mpack.tar.gz
-sudo ambari-server start```
+sudo ambari-server start
+```
 
 Troubleshooting:
 
 Read the ambari server logs located: `/var/log/ambari-server/ambari-server.log`
 
-```#usefule commands:
+```
+#usefule commands:
 
 sudo ambari-server install-mpack --mpack=./target/bgtp-ambari-mpack-1.0.0.0-SNAPSHOT-bgtp-ambari-mpack.tar.gz --purge # will delete previously installed mpacks only use it if you want to delete prevoiusly installed mpacks
 
