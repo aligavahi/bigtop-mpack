@@ -23,20 +23,6 @@
       <reponame>BGTP</reponame>
     </repo>
   </os>
-  <os family="fedora26">
-    <repo>
-      <baseurl>http://repos.bigtop.apache.org/releases/1.4.0/fedora/26/aarch64</baseurl>
-      <repoid>BGTP-1.0</repoid>
-      <reponame>BGTP</reponame>
-    </repo>
-  </os>
-  <os family="debian9">
-    <repo>
-      <baseurl>http://repos.bigtop.apache.org/releases/1.4.0/debian/9/aarch64</baseurl>
-      <repoid>BGTP-1.0</repoid>
-      <reponame>BGTP</reponame>
-    </repo>
-  </os>
   <os family="ubuntu16">
     <repo>
       <baseurl>http://repos.bigtop.apache.org/releases/1.4.0/ubuntu/16.04/aarch64</baseurl>
