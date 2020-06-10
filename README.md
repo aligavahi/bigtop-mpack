@@ -20,6 +20,7 @@ sudo ambari-server start
 
 As with any installation you will need to setup your hive database before installing the hive metastore.  Here are some easy to follow instructions to help you complete that:
 https://docs.cloudera.com/runtime/7.0.0/hive-metastore/topics/hive-mysql_.html
+_Warning: if you blindly follow instructions your install will fail as by default the database is called 'hive' in ambari configuration, but the above instructions use 'metastore' you have been warned_
 
 Troubleshooting:
 
