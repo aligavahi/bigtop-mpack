@@ -18,6 +18,9 @@ sudo ambari-server install-mpack --mpack=./target/bgtp-ambari-mpack-1.0.0.0-SNAP
 sudo ambari-server start
 ```
 
+As with any installation you will need to setup your hive database before installing the hive metastore.  Here are some easy to follow instructions to help you complete that:
+https://docs.cloudera.com/runtime/7.0.0/hive-metastore/topics/hive-mysql_.html
+
 Troubleshooting:
 
 Read the ambari server logs located: `/var/log/ambari-server/ambari-server.log`
